@@ -1,0 +1,23 @@
+/* Add your custom styles here, e.g., table styling, button styling */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  .sort-button {
+    cursor: pointer;
+  }
+  
+  .sort-button.ascending::after {
+    content: "⬆️";
+  }
+  
+  .sort-button.descending::after {
+    content: "⬇️";
+  }
+  

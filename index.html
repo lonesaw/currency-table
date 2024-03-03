@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cryptocurrency Data Table</title>
+  <link rel="stylesheet" href="/style.css"> </head>
+<body>
+  <h1>Cryptocurrency Data Table</h1>
+  <input type="text" id="search-input" placeholder="Search by name or symbol">
+  <table border="1" id="crypto-table">
+    <thead>
+      <tr>
+        <th>Image</th>
+        <th>Name</th>
+        <th>Symbol</th>
+        <th data-sort="current_price" class="sort-button">Price (USD)</th>
+        <th data-sort="total_volume" class="sort-button">Total Volume</th>
+        <th data-sort="market_cap" class="sort-button">Market Cap</th>
+        <th data-sort="price_change_percentage_24h" class="sort-button">% Change</th>
+      </tr>
+    </thead>
+    <tbody id="table-body">
+    </tbody>
+  </table>
+
+  <script src="/script.js"></script>
+ </body>
+</html>
